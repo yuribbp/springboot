@@ -9,7 +9,7 @@ import com.stscourse.course.entities.User;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResoucer {
+public class UserResource {
 
 	@GetMapping
 	public ResponseEntity<User> findAll(){
